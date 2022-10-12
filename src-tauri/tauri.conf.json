@@ -1,0 +1,33 @@
+{
+  "build": {
+    "beforeDevCommand": "",
+    "beforeBuildCommand": "",
+    "devPath": "https://web.whatsapp.com",
+    "distDir": "https://web.whatsapp.com",
+    "withGlobalTauri": false
+  },
+  "package": {
+    "productName": "whatsapp",
+    "version": "1.0.0"
+  },
+  "tauri": {
+    "allowlist": {
+      "all": true
+    },
+    "security": {
+      "csp": null
+    },
+    "updater": {
+      "active": false
+    },
+    "windows": [
+      {
+        "fullscreen": false,
+        "height": 600,
+        "resizable": true,
+        "title": "WhatsApp",
+        "width": 800
+      }
+    ]
+  }
+}
